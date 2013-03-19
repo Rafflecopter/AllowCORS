@@ -1,0 +1,21 @@
+{
+  "name": "AllowCORS",
+  "version": "0.0.1",
+  "description": "middleware for allowing cross-origin requests",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Rafflecopter/AllowCORS.git"
+  },
+  "author": "Justin Ratner (justin@rafflecopter.com)",
+  "license": "MIT",
+
+  "dependencies": {
+  },
+
+  "devDependencies": {
+  }
+}
