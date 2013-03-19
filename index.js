@@ -42,7 +42,7 @@ exports.CORS = function(options) {
     return function(req, resp, $next) {
         var origin = _extractOrigin(req)
 
-        if (origin && !~ origins.indexOf(origin) && origins !== '*')
+        if (origin && origins !== '*' && !~ origins.indexOf(origin))
           return resp.send(403);
 
         resp.header('Access-Control-Allow-Origin', origin)
