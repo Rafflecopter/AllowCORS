@@ -1,3 +1,5 @@
+A node.js express middleware for allowing cross-origin requests
+
     var allowCORS = require('allow-cors').CORS({
         origins: ['http://google.com', ...]   // defaults to '*' (all origins)
         credentials: true // defaults to true
