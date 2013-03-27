@@ -1,6 +1,6 @@
 {
   "name": "allow-cors",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "middleware for allowing cross-origin requests",
   "main": "index.js",
   "scripts": {
