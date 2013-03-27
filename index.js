@@ -43,7 +43,7 @@ exports.CORS = function(options) {
         var origin = _extractOrigin(req)
 
         if (origin && origins !== '*' && !~ origins.indexOf(origin))
-          return resp.send(403);
+          return resp.send(403, origin + ' is not in the list of allowed origins.');
 
         resp.header('Access-Control-Allow-Origin', origin)
         resp.header('Access-Control-Allow-Credentials', cred)
